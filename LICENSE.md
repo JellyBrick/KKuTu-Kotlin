@@ -6,6 +6,21 @@ GNU Affero General Public License v3.0 License
 This copyright have additional condition of AGPL Licence Section <5. Conveying Modified Source Versions> - b
 1. 본 레포지토리의 소스를 수정 후 최대 7일 이내에 수정본을 공개해야 합니다.  
 
+Also this copyright have additional condition
+1. 본 레포지토리의 소스를 이용하여 게임 서비스를 운영 시 사이트의 맨 하단에 아래와 같은 내용이 필수적으로 기재되어야 합니다.
+
+```
+글자로 놀자! 끄투 온라인. 본 끄투는 JJoriping의 오픈소스, KKuTu의 리소스만을 사용하여 새로운 기반으로 재개발되었습니다.
+본 소프트웨어는 어떠한 형태의 보증도 제공되지 않는 자유 소프트웨어이며 배포 규정을 만족시키는 조건 하에 자유롭게 재배포할 수 있습니다.
+이에 대한 자세한 사항은 본 소프트웨어의 구현을 담은 다음 레포지토리에서 확인하십시오: <본인의 레포지토리 주소>
+```
+
+2. 본 레포지토리에 기본적으로 포함된 모든 애니메이션, 이미지 및 소리에 대하여 [크리에이티브 커먼즈 라이선스 CC BY](https://creativecommons.org/licenses/by/4.0/) 라이선스를 가지며, 원 저작자는 https://github.com/JJoriping/KKuTu 입니다.
+
+3. 본 레포지토리에 기본적으로 포함된 모든 애니메이션, 이미지 및 소리 이외에 추가적인 애니메이션, 이미지 및 소리를 추가한 경우, 그 애니메이션, 이미지 및 소리에 한정하는 추가적인 라이선스를 주장할 수 있습니다.
+
+
+
 ---  
 
                     GNU AFFERO GENERAL PUBLIC LICENSE
