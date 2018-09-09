@@ -16,7 +16,8 @@ spring:
     cache: false
   resources:
     static-locations: file:///${app.home}/public/static/
-    cache-period: 0
+    cache:
+      period: 0s
 
 ---
 spring:
