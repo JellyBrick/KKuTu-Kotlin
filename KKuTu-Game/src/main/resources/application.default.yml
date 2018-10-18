@@ -3,9 +3,9 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/kkutu_kotlin?autoReconnect=true&useSSL=false
-    username: kkutu_kotlin
-    password: kkutu_kotlin
+    url: jdbc:mysql://localhost:3306/<Database>?autoReconnect=true&useSSL=false
+    username: <Username>
+    password: <Password>
   jpa:
     hibernate:
       ddl-auto: update
