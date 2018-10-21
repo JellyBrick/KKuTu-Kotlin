@@ -12,18 +12,35 @@ spring:
 spring:
   profiles: dev
   thymeleaf:
-    prefix: file:///${app.home}/public/templates/
     cache: false
   resources:
-    static-locations: file:///${app.home}/public/static/
     cache:
       period: 0s
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/<Database>?autoReconnect=true&useSSL=false
+    username: <Username>
+    password: <Password>
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate.format_sql: true
 
 ---
 spring:
   profiles: production
   thymeleaf:
-    prefix: file:///${app.home}/public/templates/
     cache: true
-  resources:
-    static-locations: file:///${app.home}/public/static/
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/<Database>?autoReconnect=true&useSSL=false
+    username: <Username>
+    password: <Password>
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate.format_sql: true
