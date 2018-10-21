@@ -39,13 +39,15 @@
     color: #444444;
 }
 
-.navbar .navbar-link:hover {
-    color: #EEEEEE;
-}
-
 .navbar .navbar-link a {
     font-size: 12px;
+    color: #444444;
+    text-decoration: inherit;
     transition: color 300ms ease;
+}
+
+.navbar .navbar-link a:hover {
+    color: #EEEEEE;
 }
 
 .navbar i {
